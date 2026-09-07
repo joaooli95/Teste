@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mary &amp; Oli | Vamos Casar</title>
+  <meta name="description" content="Site do casamento de Mary e Oli" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <div id="loader" class="loader"><span>M &amp; O</span></div>
+
+  <nav id="navbar" class="navbar">
+    <div class="navbar-brand">M&nbsp;&amp;&nbsp;O</div>
+    <button id="navToggle" class="nav-toggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="navbar-links" id="navLinks">
+      <li><a href="#inicio" class="nav-link">Início</a></li>
+      <li><a href="#historia" class="nav-link">Nossa História</a></li>
+      <li><a href="#detalhes" class="nav-link">Detalhes</a></li>
+      <li><a href="#presentes" class="nav-link">Presentes</a></li>
+      <li><a href="#galeria" class="nav-link">Galeria</a></li>
+      <li><a href="#rsvp" class="nav-link nav-cta">Confirmar Presença</a></li>
+    </ul>
+  </nav>
+
+  <header id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-kicker fade-in">Vamos casar</p>
+      <h1 class="hero-title fade-in">Mary <span class="amp">&amp;</span> Oli</h1>
+      <p class="hero-date fade-in" id="weddingDateLabel">19 de Junho de 2027 &middot; Portugal</p>
+
+      <div class="countdown fade-in" id="countdown" aria-label="Contagem decrescente para o casamento">
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-days">00</span>
+          <span class="countdown-label">Dias</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-hours">00</span>
+          <span class="countdown-label">Horas</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-minutes">00</span>
+          <span class="countdown-label">Min</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-seconds">00</span>
+          <span class="countdown-label">Seg</span>
+        </div>
+      </div>
+
+      <a href="#rsvp" class="btn btn-primary fade-in">Confirmar Presença</a>
+    </div>
+    <a href="#historia" class="scroll-indicator" aria-label="Descer">
+      <span></span>
+    </a>
+  </header>
+
+  <main>
+
+    <section id="historia" class="section story">
+      <p class="section-kicker reveal">A nossa jornada</p>
+      <h2 class="section-title reveal">Nossa História</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-media placeholder-media">
+            <span>Foto: Como nos conhecemos</span>
+          </div>
+          <div class="timeline-text">
+            <h3>Como nos conhecemos</h3>
+            <p>Foi um encontro inesperado que mudou tudo. Desde o primeiro dia soubemos que havia ali algo especial — e o resto, como se costuma dizer, é história.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reverse reveal">
+          <div class="timeline-media placeholder-media">
+            <span>Foto: O pedido</span>
+          </div>
+          <div class="timeline-text">
+            <h3>O pedido</h3>
+            <p>Depois de anos de cumplicidade, aventuras e muitas gargalhadas, chegou o momento de dar o próximo passo. E o "sim" veio sem hesitar.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-media placeholder-media">
+            <span>Foto: O grande dia</span>
+          </div>
+          <div class="timeline-text">
+            <h3>O grande dia</h3>
+            <p>Agora é chegada a hora de celebrar o nosso amor rodeados das pessoas que mais amamos. Mal podemos esperar para partilhar este dia convosco!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="detalhes" class="section details">
+      <p class="section-kicker reveal">Guardem a data</p>
+      <h2 class="section-title reveal">Detalhes do Grande Dia</h2>
+
+      <div class="details-grid">
+        <div class="detail-card reveal">
+          <div class="detail-icon">💍</div>
+          <h3>Cerimónia</h3>
+          <p class="detail-time">19 de Junho de 2027 &middot; 16:00</p>
+          <p>Igreja de Nossa Senhora<br />Rua Principal, 123<br />Lisboa, Portugal</p>
+          <a class="detail-link" href="https://www.google.com/maps" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+
+        <div class="detail-card reveal">
+          <div class="detail-icon">🥂</div>
+          <h3>Receção</h3>
+          <p class="detail-time">19 de Junho de 2027 &middot; 18:30</p>
+          <p>Quinta das Rosas<br />Estrada da Quinta, 456<br />Sintra, Portugal</p>
+          <a class="detail-link" href="https://www.google.com/maps" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+
+        <div class="detail-card reveal">
+          <div class="detail-icon">👗</div>
+          <h3>Dress Code</h3>
+          <p class="detail-time">Traje Elegante</p>
+          <p>Pedimos que evitem branco e tons de bege claro, para deixar esse destaque à noiva. Fora isso, vistam-se à vontade para celebrar connosco!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="presentes" class="section gifts">
+      <div class="gifts-card reveal">
+        <p class="section-kicker">Com todo o carinho</p>
+        <h2 class="section-title">Lista de Presentes</h2>
+        <p class="gifts-text">
+          A vossa presença é o presente mais importante para nós. Ainda assim, se
+          desejarem contribuir com algo mais, criámos uma lua-de-mel para
+          guardarmos as melhores memórias da nossa nova vida a dois.
+        </p>
+        <div class="gifts-iban">
+          <span class="gifts-iban-label">IBAN</span>
+          <span class="gifts-iban-value" id="ibanValue">PT50 0000 0000 0000 0000 0000 0</span>
+          <button class="btn btn-copy" id="copyIban" type="button">Copiar</button>
+        </div>
+        <p class="gifts-note">Muito obrigado pelo carinho e generosidade!</p>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery">
+      <p class="section-kicker reveal">Alguns momentos</p>
+      <h2 class="section-title reveal">Galeria</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item placeholder-media reveal"><span>Foto 1</span></div>
+        <div class="gallery-item placeholder-media reveal"><span>Foto 2</span></div>
+        <div class="gallery-item placeholder-media reveal"><span>Foto 3</span></div>
+        <div class="gallery-item placeholder-media reveal"><span>Foto 4</span></div>
+        <div class="gallery-item placeholder-media reveal"><span>Foto 5</span></div>
+        <div class="gallery-item placeholder-media reveal"><span>Foto 6</span></div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="section rsvp">
+      <p class="section-kicker reveal">Não faltem</p>
+      <h2 class="section-title reveal">Confirmar Presença</h2>
+      <p class="rsvp-subtitle reveal">Por favor confirmem a vossa presença até <strong>1 de Maio de 2027</strong>.</p>
+
+      <form id="rsvpForm" class="rsvp-form reveal" novalidate>
+        <div class="form-row">
+          <label for="fullName">Nome completo *</label>
+          <input type="text" id="fullName" name="fullName" required autocomplete="name" />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required autocomplete="email" />
+        </div>
+
+        <div class="form-row">
+          <label>Vais poder estar presente? *</label>
+          <div class="radio-group">
+            <label class="radio-option">
+              <input type="radio" name="attending" value="sim" required />
+              <span>Sim, estarei lá! 🎉</span>
+            </label>
+            <label class="radio-option">
+              <input type="radio" name="attending" value="nao" />
+              <span>Infelizmente não posso 😢</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="guests">Número de acompanhantes</label>
+          <input type="number" id="guests" name="guests" min="0" max="10" value="0" />
+        </div>
+
+        <div class="form-row">
+          <label for="message">Mensagem para os noivos</label>
+          <textarea id="message" name="message" rows="4" placeholder="Deixem uma mensagem carinhosa..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-submit">Enviar Confirmação</button>
+
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer-names">Mary &amp; Oli</p>
+    <p class="footer-date" id="footerDate">19 &middot; 06 &middot; 2027</p>
+    <p class="footer-note">Feito com amor para o nosso grande dia 💛</p>
+  </footer>
+
+  <a href="#inicio" class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
